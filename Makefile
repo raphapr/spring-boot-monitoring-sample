@@ -1,4 +1,5 @@
-VERSION = v1.1
+VERSION = v0.0.2
+GIT_BRANCH 	= $(shell git rev-parse --abbrev-ref HEAD)
 
 .PHONY: release
 release:
